@@ -39,12 +39,6 @@ def model_initialization():
         raw_b_sample (tfTensor): Label tensor of shape (n_img, 13).
 
     """
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--experiment_name', type=str, default='128', help='experiment_name')
-    parser.add_argument('--gpu', type=str, default='all', help='gpu')
-    parser.add_argument('--lang', type=str, default='en', choices=['zh', 'en'])
-    parser.add_argument('--show_size', type=int, default=192)
-    args_ = parser.parse_args()
     with open('./model/setting.txt') as f:
         args = json.load(f)
 
@@ -72,10 +66,6 @@ def model_initialization():
     multi_inputs = args['multi_inputs']
     rec_loss_weight = args['rec_loss_weight']
     one_more_conv = args['one_more_conv']
-    experiment_name = args_.experiment_name
-    gpu = args_.gpu
-    if gpu != 'all':
-        os.environ['CUDA_VISIBLE_DEVICES'] = gpu
 
     sess = tl.session()
     # Models
