@@ -32,7 +32,7 @@ It's mandatory to download the pretrained model from [Google Drive](https://driv
 
 Within the virtual environment:
 
-```streamlit run main.py```
+```streamlit run app.py```
 
 A web application will open in the prompted URL. The *Options* panel will appear at the left sidebar. First of all, you'll need to specify which of the images located in *input_images/* is going to be processed. The model is fed with 128x128 px images, so select images that already have this kind of aspect ratio. Furthermore, the better ilumination, centered and visible the face is within the picture, the better results will the model output. Several images from the [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) are provided to quicly see some results.  
 A *Save button* is also available to store the output image in the *output_images/* folder. 
