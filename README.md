@@ -2,7 +2,7 @@
 
 Interactive Web App that performs facial attributes modifications in front face images.
 
-![demo_gif](./resources/gifs/ezgif.com-resize.gif)
+![demo_gif](./resources/gifs/demo.gif)
 
 ## Description
 
