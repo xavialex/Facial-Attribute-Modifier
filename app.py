@@ -155,7 +155,7 @@ def final_image(input_image_path, output_image):
     input_image = cv2.cvtColor(cv2.imread(input_image_path), cv2.COLOR_BGR2RGB)
     input_image = cv2.resize(input_image, 
         (IMG_DISPLAY_HEIGHT, IMG_DISPLAY_WIDTH))
-    arrow = cv2.resize(cv2.cvtColor(cv2.imread('resources/arrow.jpg'), 
+    arrow = cv2.resize(cv2.cvtColor(cv2.imread('resources/images/arrow.jpg'), 
         cv2.COLOR_BGR2RGB), (IMG_DISPLAY_HEIGHT, IMG_DISPLAY_WIDTH))
     output_image = cv2.resize(output_image, 
         (IMG_DISPLAY_HEIGHT, IMG_DISPLAY_WIDTH))

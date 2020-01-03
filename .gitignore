@@ -1,6 +1,9 @@
 # Models
-/model
+model/*
 !model/README.md
+
+# Output folder
+output_images/*
 
 # Visual Studio Code
 .vscode/
