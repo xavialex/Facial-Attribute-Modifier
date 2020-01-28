@@ -6,10 +6,23 @@ Interactive Web App that performs facial attributes modifications in front face 
 
 ## Description
 
-This app makes use of [STGAN](https://arxiv.org/abs/1904.09709v1) which is based in [AttGAN](https://arxiv.org/pdf/1711.10678v1.pdf)
+This app makes use of [STGAN](https://arxiv.org/abs/1904.09709v1), which is based in [AttGAN](https://arxiv.org/pdf/1711.10678v1.pdf).
         
 
 ## Dependencies
+
+Running the application can be done following the instructions above:
+
+1. To create a Python Virtual Environment (virtualenv) to run the code, type:
+
+    ```python3 -m venv my-env```
+2. Activate the new environment:
+    * Windows: ```my-env\Scripts\activate.bat```
+    * macOS and Linux: ```source my-env/bin/activate``` 
+
+3. Install all the dependencies from *requirements.txt*:
+
+    ```pip install -r requirements.txt```
 
 If you're a conda user, you can create an environment from the ```environment.yml``` file using the Terminal or an Anaconda Prompt for the following steps:
 
