@@ -39,7 +39,14 @@ If you're a conda user, you can create an environment from the ```environment.ym
     
 You can also clone the environment through the environment manager of Anaconda Navigator.
 
-It's mandatory to download the pretrained model from [Google Drive](https://drive.google.com/open?id=1329IbLE6877DcDUut1reKxckijBJye7N) or [Baidu Cloud (4qeu)](https://pan.baidu.com/s/1D43d_8oER8_Xm4P9SovvuQ) and unzip the files to the *model/* directory. 
+It's mandatory to download the pretrained model from [Google Drive](https://drive.google.com/open?id=1329IbLE6877DcDUut1reKxckijBJye7N) or [Baidu Cloud (4qeu)](https://pan.baidu.com/s/1D43d_8oER8_Xm4P9SovvuQ) and unzip the files to the *model/* directory. The final directory structure should end up looking like this:
+```
+model
+│   README.md
+│   setting.txt    
+│
+└───checkpoints
+```
 
 ## Use
 
