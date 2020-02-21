@@ -22,7 +22,7 @@ Running the application can be done following the instructions above:
 
 3. Install all the dependencies from *requirements.txt*:
 
-    ```pip install -r requirements.txt```
+    ```pip3 install -r requirements.txt```
 
 If you're a conda user, you can create an environment from the ```environment.yml``` file using the Terminal or an Anaconda Prompt for the following steps:
 
